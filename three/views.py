@@ -1,8 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-def index(request):
-    return HttpResponse('two_index')
+def one(request):
+    return HttpResponse('two_one')
 
 def two(request):
     return HttpResponse('two_two')
