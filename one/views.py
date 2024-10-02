@@ -4,8 +4,8 @@ from django.shortcuts import render
 def startpage(request):
     return HttpResponse('Startpage')
 
-def index(request):
-    return HttpResponse('one_index')
+def one(request):
+    return HttpResponse('one_one')
 
 def two(request):
     return HttpResponse('one_two')
