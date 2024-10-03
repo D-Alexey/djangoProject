@@ -1,11 +1,11 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-def index(request):
-    return HttpResponse('two_index')
+def one(request):
+    return HttpResponse('one_one')
 
 def two(request):
-    return HttpResponse('two_two')
+    return HttpResponse('three_two')
 
 def three(request):
-    return HttpResponse('two_three')
+    return HttpResponse('three_three')
